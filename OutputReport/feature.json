@@ -1,0 +1,120 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Launch MapSynq application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on the home page \u0027mapSYNQ - Live Traffic Information Platform\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027mapSYNQ - Live Traffic Information Platform\u0027",
+                  "offset": 22
+                }
+              ],
+              "location": "com.project.testngCucumber.stepDef.MapSyncTestStep.userOnTheHomePage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-14T17:48:51.236Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11767000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.project.testngCucumber.stepDef.ScenarioHooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Navigate to the Galactio Page",
+        "description": "",
+        "id": "mapsynq-application-demo-test-cases;navigate-to-the-galactio-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1684000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.project.testngCucumber.stepDef.ScenarioHooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 651000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on Galactio button",
+            "match": {
+              "location": "com.project.testngCucumber.stepDef.MapSyncTestStep.userClickOnGalactioButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13538000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User validate the Galactio page \u0027Galactio\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Galactio\u0027",
+                  "offset": 32
+                }
+              ],
+              "location": "com.project.testngCucumber.stepDef.MapSyncTestStep.userValidateTheGalactioPage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MapsynqTCs"
+          },
+          {
+            "name": "@galactioPageNavigation"
+          }
+        ]
+      }
+    ],
+    "name": "Mapsynq application Demo Test Cases",
+    "description": "",
+    "id": "mapsynq-application-demo-test-cases",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/project/testngCucumber/feature/MapsynqDemoTestCases.feature",
+    "tags": [
+      {
+        "name": "@MapsynqTCs",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
