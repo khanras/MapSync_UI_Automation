@@ -1,0 +1,2 @@
+# MapSync_UI_Automation
+MapSync_UI_Automation
