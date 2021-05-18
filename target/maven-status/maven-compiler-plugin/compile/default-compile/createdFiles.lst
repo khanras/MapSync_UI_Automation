@@ -1,7 +1,0 @@
-com\uiautomation\framework\report\ExtendReporter.class
-com\uiautomation\framework\uiElements\BaseUIActions.class
-com\uiautomation\framework\runner\Runner.class
-com\uiautomation\framework\uiElements\BasePage.class
-com\uiautomation\framework\utils\PropertiesUtil.class
-com\uiautomation\framework\driverContext\ScenarioContext.class
-com\uiautomation\framework\driverContext\WebdriverActions.class

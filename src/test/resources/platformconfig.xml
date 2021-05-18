@@ -4,7 +4,7 @@
 
     <test name="UI Automation - Chrome">
         <parameter name="browser" value="chrome"/>
-        <parameter name="tags" value="@MapsynqTC"/>
+        <parameter name="tags" value="@MapsynqTCs"/>
         <classes>
             <class name="com.uiautomation.framework.runner.Runner"/>
         </classes>
