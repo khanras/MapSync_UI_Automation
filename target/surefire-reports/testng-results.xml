@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-18T17:31:46Z" name="RegressionTest" finished-at="2021-05-18T17:32:46Z" duration-ms="60413">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.uiautomation.framework.runner.Runner@6ff29830]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-05-18T17:31:46Z" name="UI Automation - Chrome" finished-at="2021-05-18T17:32:46Z" duration-ms="60413">
+      <class name="com.uiautomation.framework.runner.Runner">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.uiautomation.framework.runner.Runner@6ff29830]" started-at="2021-05-18T17:31:46Z" name="beforeTest" finished-at="2021-05-18T17:31:46Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.uiautomation.framework.runner.Runner@6ff29830]" started-at="2021-05-18T17:31:46Z" name="setUpClass" finished-at="2021-05-18T17:31:46Z" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.uiautomation.framework.runner.Runner@6ff29830]" started-at="2021-05-18T17:31:46Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-18T17:32:26Z" duration-ms="39901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login the application with invalid credential and validate the error message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Mapsynq application Demo Test Cases"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.uiautomation.framework.runner.Runner@6ff29830]" started-at="2021-05-18T17:32:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-18T17:32:46Z" duration-ms="20060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to the Galactio Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Mapsynq application Demo Test Cases"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.uiautomation.framework.runner.Runner@6ff29830]" started-at="2021-05-18T17:32:46Z" name="tearDownClass" finished-at="2021-05-18T17:32:46Z" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterSuit()[pri:0, instance:com.uiautomation.framework.runner.Runner@6ff29830]" started-at="2021-05-18T17:32:46Z" name="afterSuit" finished-at="2021-05-18T17:32:48Z" duration-ms="2193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.uiautomation.framework.runner.Runner -->
+    </test> <!-- UI Automation - Chrome -->
+  </suite> <!-- RegressionTest -->
+</testng-results>

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 125000000,
+              "duration": 73986500,
               "status": "passed"
             },
             "line": 5,
@@ -30,11 +30,119 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-14T17:48:51.236Z",
+        "start_timestamp": "2021-05-18T17:31:46.496Z",
         "before": [
           {
             "result": {
-              "duration": 11767000000,
+              "duration": 32432516900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.project.testngCucumber.stepDef.ScenarioHooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login the application with invalid credential and validate the error message",
+        "description": "",
+        "id": "mapsynq-application-demo-test-cases;login-the-application-with-invalid-credential-and-validate-the-error-message;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 714681700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.project.testngCucumber.stepDef.ScenarioHooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6370293900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User login with \u0027subhrayu\u0027 and \u0027subhrayu\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027subhrayu\u0027",
+                  "offset": 16
+                },
+                {
+                  "val": "\u0027subhrayu\u0027",
+                  "offset": 31
+                }
+              ],
+              "location": "com.project.testngCucumber.stepDef.MapSyncTestStep.userLoginWithUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157153400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User validate the login error message as \u0027Invalid user/password combination\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Invalid user/password combination\u0027",
+                  "offset": 41
+                }
+              ],
+              "location": "com.project.testngCucumber.stepDef.MapSyncTestStep.userValidateTheLoginErrorMessageAsErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MapsynqTCs"
+          },
+          {
+            "name": "@invalidLoginTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch MapSynq application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10208400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User on the home page \u0027mapSYNQ - Live Traffic Information Platform\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027mapSYNQ - Live Traffic Information Platform\u0027",
+                  "offset": 22
+                }
+              ],
+              "location": "com.project.testngCucumber.stepDef.MapSyncTestStep.userOnTheHomePage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-18T17:32:26.264Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6880781200,
               "status": "passed"
             },
             "match": {
@@ -49,7 +157,7 @@
         "after": [
           {
             "result": {
-              "duration": 1684000000,
+              "duration": 729879200,
               "status": "passed"
             },
             "match": {
@@ -62,7 +170,7 @@
         "steps": [
           {
             "result": {
-              "duration": 651000000,
+              "duration": 329172500,
               "status": "passed"
             },
             "line": 18,
@@ -74,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 13538000000,
+              "duration": 12107849300,
               "status": "passed"
             },
             "line": 19,
